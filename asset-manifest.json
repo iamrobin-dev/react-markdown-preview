@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/iamrobin-dev/react-markdown-preview/static/css/main.4d2c6494.chunk.css",
+    "main.js": "/iamrobin-dev/react-markdown-preview/static/js/main.d9078910.chunk.js",
+    "main.js.map": "/iamrobin-dev/react-markdown-preview/static/js/main.d9078910.chunk.js.map",
+    "runtime-main.js": "/iamrobin-dev/react-markdown-preview/static/js/runtime-main.e268de6c.js",
+    "runtime-main.js.map": "/iamrobin-dev/react-markdown-preview/static/js/runtime-main.e268de6c.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/iamrobin-dev/react-markdown-preview/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.24fa2c74.chunk.js": "/iamrobin-dev/react-markdown-preview/static/js/2.24fa2c74.chunk.js",
+    "static/js/2.24fa2c74.chunk.js.map": "/iamrobin-dev/react-markdown-preview/static/js/2.24fa2c74.chunk.js.map",
+    "index.html": "/iamrobin-dev/react-markdown-preview/index.html",
+    "precache-manifest.039205fbc588661fbd874e9c4453f925.js": "/iamrobin-dev/react-markdown-preview/precache-manifest.039205fbc588661fbd874e9c4453f925.js",
+    "service-worker.js": "/iamrobin-dev/react-markdown-preview/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/iamrobin-dev/react-markdown-preview/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.4d2c6494.chunk.css.map": "/iamrobin-dev/react-markdown-preview/static/css/main.4d2c6494.chunk.css.map",
+    "static/js/2.24fa2c74.chunk.js.LICENSE.txt": "/iamrobin-dev/react-markdown-preview/static/js/2.24fa2c74.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e268de6c.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.24fa2c74.chunk.js",
+    "static/css/main.4d2c6494.chunk.css",
+    "static/js/main.d9078910.chunk.js"
+  ]
+}
