@@ -1,26 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import ReactDOM from "react-dom";
+import ReactMarkdown from "react-markdown";
+import "./App.css";
+import { Container, Row, Col } from "reactstrap";
 
-function App() {
+const App = () => {
+  const [value, setValue] = useState("");
+  const handleChange = (event) => {
+    setValue(event.target.value);
+  };
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container className="themed-container" fluid={true}>
+      <Row>
+        <Col>
+          <textarea
+            name="text-input"
+            id=""
+            placeholder="e.x # Heading"
+            onChange={(e) => handleChange(e)}
+          />
+        </Col>
+        <Col className="markdown-preview ">
+          <ReactMarkdown source={value} escapeHtml={false}></ReactMarkdown>
+        </Col>
+      </Row>
+    </Container>
   );
-}
-
+};
 export default App;
